@@ -237,7 +237,7 @@ public class MyThreadPool {
             throw new RuntimeException(e);
         }
 
-        pool.shutdown();
+        pool.shutdown();//关闭线程池
         System.out.println("Thread pool shutdown");
     }
 }
